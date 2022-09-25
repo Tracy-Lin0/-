@@ -1,0 +1,33 @@
+
+进行一些记录！！！！
+
+git的使用方法（可以直接复制粘贴）：
+Git 全局设置
+git config --global user.name "mumu_pudding"
+git config --global user.email "2642394076@qq.com"
+
+创建一个新仓库
+git clone https://gitcode.net/mumu_pudding/the-second-homework.git
+cd 3220005097
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+推送现有文件夹
+cd existing_folder
+git init
+git remote add origin https://gitcode.net/mumu_pudding/the-second-homework.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+推送现有的 Git 仓库
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin https://gitcode.net/mumu_pudding/3220005097.git
+git push -u origin --all
+git push -u origin --tags
+
+
+按Ctrl+Alt+L键，进行整理代码格式
